@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Trellovich</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm shadow navbar-light bg-light">
+        <a class="navbar-brand" href="#">Trellovich</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <button class="btn btn-primary">
+                        Crear Tarea
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- NAVBAR -->
+    <!-- MAIN -->
+    <div class="main container my-5">
+        <div class="row">
+            <div class="col-md-6 mb-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>TO DO</h2>
+                        <div class="task-container">
+                            <article class="task">
+                                <h3>Crear JSON del proyecto</h3>
+                                <p>Responsable: <span>Beto Quiroga</span></p>
+                                <p>Plazo: <span>05/06/2020</span></p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>IN PROGRESS</h2>
+                        <div class="task-container">
+                            <article class="task">
+                                <h3>Crear JSON del proyecto</h3>
+                                <p>Responsable: <span>Beto Quiroga</span></p>
+                                <p>Plazo: <span>05/06/2020</span></p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>DONE</h2>
+                        <div class="task-container">
+                            <article class="task">
+                                <h3>Crear JSON del proyecto</h3>
+                                <p>Responsable: <span>Beto Quiroga</span></p>
+                                <p>Plazo: <span>05/06/2020</span></p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MAIN -->
+    <!-- ASIDE -->
+    <aside class="aside-container">
+        <h2>Nueva Tarea</h2>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <input id="titleTask" class="form-control" type="text" placeholder="Titulo descriptivo">
+                </div>
+                <div class="form-group">
+                    <select id="personTask" class="form-control">
+                        <option value="">Seleccione al responsable</option>
+                        <option value="juan">Juan</option>
+                        <option value="esteban">Esteban</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select id="deadlineTask" class="form-control">
+                        <option value="">Seleccione plazo de entrega</option>
+                        <option value="one">1 dia</option>
+                        <option value="two">2 dias</option>
+                        <option value="seven">Una semana</option>
+                    </select>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <button class="btn btn-primary">
+                            GUARDAR
+                        </button>
+                        <button type="reset" class="btn btn-outline-danger">
+                            Cancelar
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </aside>
+    <!-- ASIDE -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
