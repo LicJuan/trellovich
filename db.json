@@ -8,7 +8,7 @@
             "created": 1594756112
         },
         {
-            "id": 1,
+            "id": 2,
             "title": "Crear segundo JSON para el proyecto",
             "person": "Bertolo",
             "state": "in-progress",
@@ -16,10 +16,34 @@
             "created": 1594756112
         },
         {
-            "id": 1,
+            "id": 3,
             "title": "Crear tercer JSON para el proyecto",
             "person": "Bertolo",
             "state": "done",
+            "deadline": 1602701312,
+            "created": 1594756112
+        },
+        {
+            "id": 4,
+            "title": "Crear cuarto JSON para el proyecto",
+            "person": "Bertolo",
+            "state": "done",
+            "deadline": 1602701312,
+            "created": 1594756112
+        },
+        {
+            "id": 5,
+            "title": "Crear quinto JSON para el proyecto",
+            "person": "Bertolo",
+            "state": "to-do",
+            "deadline": 1602701312,
+            "created": 1594756112
+        },
+        {
+            "id": 6,
+            "title": "Crear sexto JSON para el proyecto",
+            "person": "Bertolo",
+            "state": "to-do",
             "deadline": 1602701312,
             "created": 1594756112
         }
